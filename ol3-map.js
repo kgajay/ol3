@@ -33,7 +33,7 @@ var OSM = {
         OSM.rtfsTileLayer = new ol.layer.Tile({
             source: new ol.source.OSM({
                 crossOrigin: null,
-                url: 'http://rtfs01.tfsit.de/osm/{z}/{x}/{y}.png'
+                url:'localhost:9090/osm/{z}/{x}/{y}.png'
             })
         });
     },
